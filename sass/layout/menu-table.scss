@@ -1,0 +1,33 @@
+#left_side {
+  p {
+    padding: 10px 20px;
+  }
+}
+
+table {
+  border-style: solid;
+  text-align: center;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04aa6d;
+  color: white;
+}

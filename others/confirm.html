@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta chaset="utf-8"/>
+	<script src="js/confirm.js"></script>
+	<title>Thanh toán - Tiệm Crochalala - Hoa len thủ công</title>
+</head>
+
+<body>
+	<h1>Tiệm len Crochalala</h1>
+	<h2>Xác nhận Đơn hàng</h2>
+
+	<form method="post" action="https://dunglailaptrinh.com/api.php">
+		<fieldset>
+		<legend>Kiểm tra lại thông tin</legend>
+		<p>Tên của bạn là: <span id="confirm_name">				</span></p>
+		<p>Email: <span id="confirm_email">						</span></p>
+		<p>Số điện thoại: <span id="confirm_phonenumber">		</span></p>
+		<p>Tuổi: <span id="confirm_age">							</span></p>
+		<p>Biết đến từ: <span id="confirm_access">				</span></p>
+		<p>Hoa bạn chọn là: <span id="confirm_item">			</span></p>
+		<p>Hình thức thanh toán: <span id="confirm_payment">	</span></p>
+		<p>Tổng số tiền: <span id="confirm_total"></span>k (VND)</p>
+		<p>Khuyến mãi: <br>
+			<span id="discount_items"></span> <br>
+			<span id="discount_age"></span> <br>
+			<span id="incress_paypal"></span> <br>
+		</p>
+		<input type="submit" value="Hoàn tất"/>
+		<input id="cancel_button" type="button" value="Hủy"/>
+		</fieldset>
+		
+	</form>
+
+</body>
+</html>

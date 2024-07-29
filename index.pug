@@ -1,0 +1,9 @@
+extends ./view/layout/layout-items.pug
+block vars 
+    - var title = "Tiệm len Crochalala"
+append head   
+    link(rel='stylesheet', href='./sass/main.css')
+block main
+    div(id="flex_container")
+        include ./view/layout/right_side
+        include ./view/layout/left_side

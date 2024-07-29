@@ -1,0 +1,24 @@
+block vars 
+    - var title = "Tiệm Crochalala - Hoa len thủ công";
+doctype html
+html(lang="en")
+    head
+        block head
+        meta(chaset='utf-8')
+        meta(name='description', content='First website')
+        meta(name='hoa len', content='hoa len thu cong')
+        meta(name='tiem hoa len', content='tiem hoa len thu cong')
+        meta(name='tiem hoa', content='tiem hoa len')
+        meta(name='owner', content='Nghiêm Lê Mỹ Hạnh')
+        meta(name='name', content='crochalala')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='preconnect', href='https://fonts.googleapis.com')
+        link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap', rel='stylesheet')
+        title= title
+
+body
+    include ./header 
+    main
+        block main
+    include ./footer
